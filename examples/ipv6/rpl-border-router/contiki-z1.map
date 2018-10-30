@@ -2293,7 +2293,7 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
                 0x000000000000ef3a                _unexpected_
                 0x000000000000ef3c                . = ALIGN (0x2)
 
-.rodata         0x000000000000ef3c      0x586
+.rodata         0x000000000000ef3c      0x57c
                 0x000000000000ef3c                . = ALIGN (0x2)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata        0x000000000000ef3c       0xc8 border-router.co
@@ -2306,49 +2306,49 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
                 0x000000000000f114                http_header_404
                 0x000000000000f171                http_header_200
                 0x000000000000f1c7                http_content_type_html
- .rodata        0x000000000000f1e3      0x118 obj_z1/contiki-z1-main.o
- *fill*         0x000000000000f2fb        0x1 00
- .rodata        0x000000000000f2fc       0x70 contiki-z1.a(cc2420.o)
-                0x000000000000f32e                cc2420_aes_128_driver
-                0x000000000000f332                cc2420_driver
- .rodata        0x000000000000f36c        0x8 contiki-z1.a(sensors.o)
- .rodata        0x000000000000f374       0x10 contiki-z1.a(button-sensor.o)
-                0x000000000000f37c                button_sensor
- .rodata        0x000000000000f384        0xc contiki-z1.a(slip.o)
- .rodata        0x000000000000f390       0x2e contiki-z1.a(adxl345.o)
-                0x000000000000f3a0                adxl345
- .rodata        0x000000000000f3be       0x16 contiki-z1.a(tmp102.o)
-                0x000000000000f3cc                tmp102
- .rodata        0x000000000000f3d4        0xf contiki-z1.a(ctimer.o)
- .rodata        0x000000000000f3e3        0xc contiki-z1.a(etimer.o)
- *fill*         0x000000000000f3ef        0x1 00
- .rodata        0x000000000000f3f0       0x20 contiki-z1.a(uip6.o)
- .rodata        0x000000000000f410       0x24 contiki-z1.a(sicslowpan.o)
-                0x000000000000f41c                sicslowpan_driver
-                0x000000000000f422                llprefix
-                0x000000000000f424                unc_mxconf
-                0x000000000000f428                unc_ctxconf
-                0x000000000000f42c                unc_llconf
- .rodata        0x000000000000f434        0xd contiki-z1.a(tcpip.o)
- .rodata        0x000000000000f441       0x28 contiki-z1.a(uip-debug.o)
- *fill*         0x000000000000f469        0x1 00
- .rodata        0x000000000000f46a        0x8 contiki-z1.a(linkaddr.o)
-                0x000000000000f46a                linkaddr_null
- .rodata        0x000000000000f472       0x14 contiki-z1.a(csma.o)
-                0x000000000000f478                csma_driver
- .rodata        0x000000000000f486        0x6 contiki-z1.a(framer-802154.o)
-                0x000000000000f486                framer_802154
- .rodata        0x000000000000f48c       0x1c contiki-z1.a(contikimac.o)
-                0x000000000000f498                contikimac_driver
- .rodata        0x000000000000f4a8       0x10 contiki-z1.a(nullsec.o)
-                0x000000000000f4b0                nullsec_driver
- .rodata        0x000000000000f4b8        0x2 contiki-z1.a(frame802154.o)
- .rodata        0x000000000000f4ba        0x7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
-                0x000000000000f4c2                . = ALIGN (0x2)
- *fill*         0x000000000000f4c1        0x1 00
-                0x000000000000f4c2                _etext = .
+ .rodata        0x000000000000f1e3      0x10e obj_z1/contiki-z1-main.o
+ *fill*         0x000000000000f2f1        0x1 00
+ .rodata        0x000000000000f2f2       0x70 contiki-z1.a(cc2420.o)
+                0x000000000000f324                cc2420_aes_128_driver
+                0x000000000000f328                cc2420_driver
+ .rodata        0x000000000000f362        0x8 contiki-z1.a(sensors.o)
+ .rodata        0x000000000000f36a       0x10 contiki-z1.a(button-sensor.o)
+                0x000000000000f372                button_sensor
+ .rodata        0x000000000000f37a        0xc contiki-z1.a(slip.o)
+ .rodata        0x000000000000f386       0x2e contiki-z1.a(adxl345.o)
+                0x000000000000f396                adxl345
+ .rodata        0x000000000000f3b4       0x16 contiki-z1.a(tmp102.o)
+                0x000000000000f3c2                tmp102
+ .rodata        0x000000000000f3ca        0xf contiki-z1.a(ctimer.o)
+ .rodata        0x000000000000f3d9        0xc contiki-z1.a(etimer.o)
+ *fill*         0x000000000000f3e5        0x1 00
+ .rodata        0x000000000000f3e6       0x20 contiki-z1.a(uip6.o)
+ .rodata        0x000000000000f406       0x24 contiki-z1.a(sicslowpan.o)
+                0x000000000000f412                sicslowpan_driver
+                0x000000000000f418                llprefix
+                0x000000000000f41a                unc_mxconf
+                0x000000000000f41e                unc_ctxconf
+                0x000000000000f422                unc_llconf
+ .rodata        0x000000000000f42a        0xd contiki-z1.a(tcpip.o)
+ .rodata        0x000000000000f437       0x28 contiki-z1.a(uip-debug.o)
+ *fill*         0x000000000000f45f        0x1 00
+ .rodata        0x000000000000f460        0x8 contiki-z1.a(linkaddr.o)
+                0x000000000000f460                linkaddr_null
+ .rodata        0x000000000000f468       0x14 contiki-z1.a(csma.o)
+                0x000000000000f46e                csma_driver
+ .rodata        0x000000000000f47c        0x6 contiki-z1.a(framer-802154.o)
+                0x000000000000f47c                framer_802154
+ .rodata        0x000000000000f482       0x1c contiki-z1.a(contikimac.o)
+                0x000000000000f48e                contikimac_driver
+ .rodata        0x000000000000f49e       0x10 contiki-z1.a(nullsec.o)
+                0x000000000000f4a6                nullsec_driver
+ .rodata        0x000000000000f4ae        0x2 contiki-z1.a(frame802154.o)
+ .rodata        0x000000000000f4b0        0x7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                0x000000000000f4b8                . = ALIGN (0x2)
+ *fill*         0x000000000000f4b7        0x1 00
+                0x000000000000f4b8                _etext = .
 
-.data           0x0000000000001100      0x138 load address 0x000000000000f4c2
+.data           0x0000000000001100      0x138 load address 0x000000000000f4b8
                 0x0000000000001100                . = ALIGN (0x2)
                 0x0000000000001100                PROVIDE (__data_start, .)
  *(.data .data.* .gnu.linkonce.d.*)
@@ -2395,10 +2395,10 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
  .data          0x0000000000001234        0x4 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(rand.o)
                 0x0000000000001238                . = ALIGN (0x2)
                 0x0000000000001238                _edata = .
-                0x000000000000f4c2                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x000000000000f4b8                PROVIDE (__data_load_start, LOADADDR (.data))
                 0x0000000000000138                PROVIDE (__data_size, SIZEOF (.data))
 
-.bss            0x0000000000001238     0x1afe load address 0x000000000000f5fa
+.bss            0x0000000000001238     0x1afe load address 0x000000000000f5f0
                 0x0000000000001238                PROVIDE (__bss_start, .)
  *(.bss .bss.*)
  .bss           0x0000000000001238      0x124 border-router.co
@@ -2531,7 +2531,7 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
                 0x0000000000002d36                PROVIDE (__bss_end, .)
                 0x0000000000001afe                PROVIDE (__bss_size, SIZEOF (.bss))
 
-.noinit         0x0000000000002d36        0x2 load address 0x000000000000f5fa
+.noinit         0x0000000000002d36        0x2 load address 0x000000000000f5f0
                 0x0000000000002d36                PROVIDE (__noinit_start, .)
  *(.noinit .noinit.*)
  .noinit.crt0   0x0000000000002d36        0x2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
@@ -2712,9 +2712,9 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
  .stab          0x000000000002dd2c     0x11dc contiki-z1.a(frame802154.o)
                                        0x19c8 (size before relaxing)
 
-.stabstr        0x0000000000000000    0x203dd
+.stabstr        0x0000000000000000    0x2041c
  *(.stabstr)
- .stabstr       0x0000000000000000    0x203dd border-router.co
+ .stabstr       0x0000000000000000    0x2041c border-router.co
 
 .stab.excl
  *(.stab.excl)
@@ -2937,6 +2937,6 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
  *(.debug_ranges)
  .debug_ranges  0x0000000000000000       0x18 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
                 0x0000000000003100                PROVIDE (__stack, (ORIGIN (ram) + 0x2000))
-                0x000000000000f4c2                PROVIDE (__data_start_rom, _etext)
-                0x000000000000f5fa                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+                0x000000000000f4b8                PROVIDE (__data_start_rom, _etext)
+                0x000000000000f5f0                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
 OUTPUT(border-router.z1 elf32-msp430)

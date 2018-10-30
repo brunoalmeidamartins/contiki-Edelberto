@@ -1,115 +1,23 @@
-[16:46:27 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
-[16:46:27 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux_64.config
-[16:46:27 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/bruno/.cooja.user.properties
-[16:46:33 - AWT-EventQueue-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
-[16:46:33 - AWT-EventQueue-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
-[16:47:49 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
-[16:47:52 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-border-router/border-router.z1
-[16:48:39 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-client.z1 TARGET=z1 
-[16:48:45 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:48:45 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:48:45 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:49:04 - Thread-2] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540928944391
-[16:49:29 - AWT-EventQueue-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
-[16:49:41 - Thread-4] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
-[16:49:41 - Thread-3] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
-[16:50:46 - Thread-2] [Simulation.java:293] [FATAL] - Simulation stopped due to error: -1
-java.lang.ArrayIndexOutOfBoundsException: -1
-	at se.sics.mspsim.core.MSP430Core$1.write(MSP430Core.java:171)
-	at se.sics.mspsim.core.MSP430Core.serviceInterrupt(MSP430Core.java:913)
-	at se.sics.mspsim.core.MSP430Core.emulateOP(MSP430Core.java:970)
-	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:256)
-	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:337)
-	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:298)
-	at org.contikios.cooja.motes.AbstractWakeupMote$1.execute(AbstractWakeupMote.java:47)
-	at org.contikios.cooja.Simulation.run(Simulation.java:281)
-	at java.lang.Thread.run(Thread.java:748)
-[16:50:57 - Thread-2] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929057837	Duration: 113446 ms	Simulated time 10591581 ms	Ratio 93.36231334731943
-[16:51:02 - Thread-6] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540929062057
-[16:51:02 - Thread-6] [Simulation.java:293] [FATAL] - Simulation stopped due to error: Jumping to a time that is further than possible not LPM maxCycles:84709161776 cycles: 84709161225
-java.lang.IllegalArgumentException: Jumping to a time that is further than possible not LPM maxCycles:84709161776 cycles: 84709161225
-	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:242)
-	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:337)
-	at org.contikios.cooja.mspmote.MspMoteTimeEvent.execute(MspMoteTimeEvent.java:53)
-	at org.contikios.cooja.mspmote.interfaces.MspSerial$2.execute(MspSerial.java:82)
-	at org.contikios.cooja.Simulation.run(Simulation.java:281)
-	at java.lang.Thread.run(Thread.java:748)
-[16:51:05 - Thread-6] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929065885	Duration: 3828 ms	Simulated time 10591581 ms	Ratio 2766.8706896551726
-[16:51:06 - Thread-4] [SerialSocketServer.java:497] [INFO] - Socket closed
-[16:51:06 - Thread-4] [SerialSocketServer.java:501] [INFO] - End of Stream
-[16:51:06 - Thread-3] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
-[16:51:07 - Thread-8] [Simulation.java:422] [INFO] - Simulation random seed: 123456
-[16:51:07 - Thread-8] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
-[16:51:07 - Thread-8] [CompileContiki.java:140] [INFO] - > make udp-client.z1 TARGET=z1 
-[16:51:07 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-border-router/border-router.z1
-[16:51:07 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:51:07 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:51:07 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:51:08 - Thread-8] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
-[16:51:08 - Thread-8] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
-[16:51:40 - AWT-EventQueue-0] [Cooja.java:3491] [INFO] - Saved to file: /home/bruno/UFJF_Drive/SeminarioVI/Simulacao.csc
-[16:51:45 - Thread-10] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540929105865
-[16:51:56 - AWT-EventQueue-0] [SerialSocketServer.java:392] [ERROR] - Address already in use (Bind failed)
-[16:52:19 - Thread-9] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
-[16:52:19 - Thread-11] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
-[16:52:37 - Thread-10] [Simulation.java:293] [FATAL] - Simulation stopped due to error: null
-java.lang.ArrayIndexOutOfBoundsException
-[16:52:46 - Thread-10] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929166565	Duration: 60700 ms	Simulated time 5439425 ms	Ratio 89.61161449752883
-[16:52:47 - Thread-9] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
-[16:52:47 - Thread-11] [SerialSocketServer.java:497] [INFO] - Socket closed
-[16:52:47 - Thread-11] [SerialSocketServer.java:501] [INFO] - End of Stream
-[16:52:50 - Thread-13] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540929170138
-[16:52:50 - Thread-13] [Simulation.java:293] [FATAL] - Simulation stopped due to error: Jumping to a time that is further than possible not LPM maxCycles:43501805203 cycles: 43501804654
-java.lang.IllegalArgumentException: Jumping to a time that is further than possible not LPM maxCycles:43501805203 cycles: 43501804654
-	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:242)
-	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:337)
-	at org.contikios.cooja.mspmote.MspMoteTimeEvent.execute(MspMoteTimeEvent.java:53)
-	at org.contikios.cooja.mspmote.interfaces.MspSerial$2.execute(MspSerial.java:82)
-	at org.contikios.cooja.Simulation.run(Simulation.java:281)
-	at java.lang.Thread.run(Thread.java:748)
-[16:52:52 - Thread-13] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929172946	Duration: 2808 ms	Simulated time 5439425 ms	Ratio 1937.1171652421651
-[16:52:54 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
-[16:52:54 - Thread-15] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
-[16:52:54 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.z1 TARGET=z1 
-[16:52:54 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-border-router/border-router.z1
-[16:52:54 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:52:55 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:52:55 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:52:55 - Thread-15] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
-[16:53:02 - Thread-16] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540929182616
-[16:53:21 - AWT-EventQueue-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
-[16:53:36 - Thread-18] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
-[16:53:36 - Thread-17] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
-[16:55:15 - Thread-16] [Simulation.java:293] [FATAL] - Simulation stopped due to error: null
-java.lang.ArrayIndexOutOfBoundsException
-[16:55:24 - Thread-16] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929324731	Duration: 142115 ms	Simulated time 13268024 ms	Ratio 93.36052239016016
-[16:55:29 - Thread-17] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
-[16:55:29 - Thread-18] [SerialSocketServer.java:497] [INFO] - Socket closed
-[16:55:29 - Thread-18] [SerialSocketServer.java:501] [INFO] - End of Stream
-[16:55:30 - AWT-EventQueue-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
-[16:55:33 - Thread-20] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
-[16:55:36 - Thread-21] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540929336025
-[16:55:36 - Thread-21] [Simulation.java:293] [FATAL] - Simulation stopped due to error: Jumping to a time that is further than possible not LPM maxCycles:106115566189 cycles: 106115566187
-java.lang.IllegalArgumentException: Jumping to a time that is further than possible not LPM maxCycles:106115566189 cycles: 106115566187
-	at se.sics.mspsim.core.MSP430.stepMicros(MSP430.java:242)
-	at org.contikios.cooja.mspmote.MspMote.execute(MspMote.java:337)
-	at org.contikios.cooja.mspmote.MspMoteTimeEvent.execute(MspMoteTimeEvent.java:53)
-	at org.contikios.cooja.mspmote.interfaces.MspSerial$2.execute(MspSerial.java:82)
-	at org.contikios.cooja.Simulation.run(Simulation.java:281)
-	at java.lang.Thread.run(Thread.java:748)
-[16:55:40 - Thread-21] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929340357	Duration: 4332 ms	Simulated time 13268024 ms	Ratio 3062.7940904893812
-[16:55:41 - Thread-23] [Simulation.java:422] [INFO] - Simulation random seed: 123456
-[16:55:41 - Thread-23] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
-[16:55:42 - Thread-23] [CompileContiki.java:140] [INFO] - > make udp-client.z1 TARGET=z1 
-[16:55:42 - Thread-23] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-border-router/border-router.z1
-[16:55:42 - Thread-23] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:55:42 - Thread-23] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:55:42 - Thread-23] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki/examples/ipv6/rpl-udp/udp-client.z1
-[16:55:42 - Thread-23] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
-[16:55:45 - Thread-24] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540929345720
-[16:55:49 - AWT-EventQueue-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
-[16:55:53 - Thread-25] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
-[16:55:53 - Thread-26] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
-[16:57:26 - Thread-24] [Simulation.java:293] [FATAL] - Simulation stopped due to error: null
-java.lang.ArrayIndexOutOfBoundsException
-[16:57:31 - Thread-24] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540929451330	Duration: 105610 ms	Simulated time 10228659 ms	Ratio 96.85312943850015
+[18:32:19 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[18:32:19 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux_64.config
+[18:32:19 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/bruno/.cooja.user.properties
+[18:32:57 - AWT-EventQueue-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[18:32:57 - AWT-EventQueue-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[18:34:10 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[18:34:15 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki-Edelberto/examples/ipv6/rpl-border-router/border-router.z1
+[18:34:48 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki-Edelberto/examples/ipv6/rpl-udp/udp-client.z1
+[18:34:48 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki-Edelberto/examples/ipv6/rpl-udp/udp-client.z1
+[18:34:48 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki-Edelberto/examples/ipv6/rpl-udp/udp-client.z1
+[18:34:48 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki-Edelberto/examples/ipv6/rpl-udp/udp-client.z1
+[18:34:48 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/bruno/contiki-Edelberto/examples/ipv6/rpl-udp/udp-client.z1
+[18:35:20 - Thread-2] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1540935320504
+[18:36:04 - AWT-EventQueue-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[18:48:02 - Thread-4] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
+[18:48:02 - Thread-3] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
+[18:51:00 - Thread-3] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[18:51:00 - Thread-4] [SerialSocketServer.java:497] [INFO] - Socket closed
+[18:51:00 - Thread-4] [SerialSocketServer.java:501] [INFO] - End of Stream
+[18:51:01 - AWT-EventQueue-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[18:51:05 - Thread-2] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1540936265928	Duration: 945424 ms	Simulated time 66175936 ms	Ratio 69.99603987205741
+[18:51:10 - AWT-EventQueue-0] [Cooja.java:3491] [INFO] - Saved to file: /home/bruno/UFJF_Drive/SeminarioVI/Simulacao.csc
+[18:51:10 - Thread-5] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed

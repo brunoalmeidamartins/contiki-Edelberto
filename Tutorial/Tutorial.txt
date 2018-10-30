@@ -1,0 +1,13 @@
+1 - cd contik--Edelberto/tools/cooja
+2 - ant run
+3 - Salvar um novo cenario
+4 - Criar um Mote z1
+5 - Subir um rpl-border-rouer/border-router.c      "/contiki-Edelberto/examples/ipv6/rpl-border-router/border-router.c"
+6 - Criar um Mote z1
+7 - Subir um rpl-udp/udp-client.c                  "/contiki-Edelberto/examples/ipv6/rpl-upd/udp.client.c"
+8 - Suba a quantidade de motes que deseja (Em linha = Linear)
+9 - Clique em Tools->SerialSocket(Server) e escolha o mote Servidor. (O primeiro no nosso caso).
+10 - Pelo terminal navegue para "/contiki-Edelberto/examples/ipv6/rpl-border-router/"
+11 - Digite o seguinte comando: "make connect-router-cooja"
+12 - Irá aparecer um ipv6
+13 - Copie o ipv6 e o abra no firefor: [ipv6] e de enter
